@@ -1,3 +1,1 @@
-# spycam
-This app made alot of money until google forced me to take it down from the store. I lost the final source code so I had to decompile an early beta.
-The final version had a major difference between this one in that the Camera object is protected within a Singleton,otherwise it could be possible to have the camera begin recording while another instance is already running causing the app to crash and the recorded video or audio to fail to record. THe final version also had a service which ran a jobs scheduler and the jobs scheduler was to ensure that the service that handles the commands is always running. I had it cloud enabled either through upload to a ParseServer, or FTPing to my website.
+Early beta for Android Spyware framework.
